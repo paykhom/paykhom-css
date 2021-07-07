@@ -1,3 +1,43 @@
-.sonet-test {
-	@apply font-bold; 
+/* dark theme */
+/* .darkThemeBlack{
+    @apply bg-gray-50 dark:bg-gray-700 text-white;
+} */
+.darkThemeGray{
+    @apply dark:bg-gray-900 text-white;
+}
+.signatureBgColor{
+    @apply bg-gray-400 text-white;
+}
+.signatureTextColor{
+    @apply text-gray-400;
+}
+
+/* new paykhom theme */
+.paykhom-body-theme{
+    @apply bg-gray-100 text-black dark:bg-gray-700 dark:text-white;
+}
+.paykhom-component-theme{
+    @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
+.paykhom-text-theme{
+    @apply text-black dark:text-white;
+}
+.paykhom-bg-color{
+    @apply bg-gray-400 text-white;
+}
+.paykhom-text-color{
+    @apply text-gray-400;
+}
+.content-wrap{
+    @apply px-5;
+}
+/* dark mode toggle button */
+.toggle-checkbox {
+    @apply: right-0 border-purple-700;
+    right: 0;
+    border-color: #6D28D9;
+  }
+.toggle-checkbox + .toggle-label {
+    @apply: bg-purle-700;
+    background-color: #6D28D9;
 }

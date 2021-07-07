@@ -4,6 +4,7 @@
   "description": "Ymmy",
   "main": "index.js",
   "scripts": {
+    "build-tailwind": "postcss tailwind-style.css -o tailwind.css",
     "build-paykhom": "postcss paykhom-style.css -o paykhom.css",
     "build-ecom": "postcss ecom-style.css -o ecom.css",
     "build-localhost": "postcss localhost-style.css -o localhost.css",

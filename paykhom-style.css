@@ -1,7 +1,52 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
 
-@import "tailwindcss/utilities";
+#toggle:checked ~ label div.toggle-dot{
+  @apply translate-x-3
+}
+
+
+/* dark theme */
+/* .darkThemeBlack{
+    @apply bg-gray-50 dark:bg-gray-700 text-white;
+} */
+.darkThemeGray{
+  @apply dark:bg-gray-900 text-white;
+}
+.signatureBgColor{
+  @apply bg-gray-400 text-white;
+}
+.signatureTextColor{
+  @apply text-gray-400;
+}
+
+/* new paykhom theme */
+.paykhom-body-theme{
+  @apply bg-gray-100 text-black dark:bg-gray-700 dark:text-white;
+}
+.paykhom-component-theme{
+  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
+.paykhom-text-theme{
+  @apply text-black dark:text-white;
+}
+.paykhom-bg-color{
+  @apply bg-gray-400 text-white;
+}
+.paykhom-text-color{
+  @apply text-gray-400;
+}
+.content-wrap{
+  @apply px-5;
+}
+/* dark mode toggle button */
+.toggle-checkbox {
+  @apply: right-0 border-purple-700;
+  right: 0;
+  border-color: #6D28D9;
+}
+.toggle-checkbox + .toggle-label {
+  @apply: bg-purle-700;
+  background-color: #6D28D9;
+}
 
 
 .btn-indigo {
@@ -10,4 +55,145 @@
 
 .btnright {
   @apply font-bold py-2 px-4 rounded /*#{!important}*/;
+}
+
+.bg-white-1000 {
+  @apply bg-white;
+}
+.bg-white-900 {
+  @apply bg-gray-100;  
+}
+.bg-white-800 {
+  @apply bg-gray-200;  
+
+}
+.bg-white-700 {
+  @apply bg-gray-300;  
+
+}
+.bg-white-600 {
+  @apply bg-gray-400;  
+
+}
+.bg-white-500 {
+  @apply bg-gray-500;  
+
+}
+.bg-white-400 {
+  @apply bg-gray-600;  
+
+}
+.bg-white-300 {
+  @apply bg-gray-700;  
+
+}
+.bg-white-200 {
+  @apply bg-gray-800;  
+
+}
+.bg-white-100 {
+  @apply bg-gray-900;  
+
+}
+.bg-white-0 {
+  @apply bg-black;  
+
+}
+
+/******************/
+
+.fg-white-1000 {
+  @apply text-white;
+}
+.fg-white-900 {
+  @apply text-gray-100;  
+}
+.fg-white-800 {
+  @apply text-gray-200;  
+
+}
+.fg-white-700, .dark\:fg-white-700 {
+  @apply text-gray-300;  
+
+}
+.fg-white-600 {
+  @apply text-gray-400;  
+
+}
+.fg-white-500 {
+  @apply text-gray-500;  
+
+}
+.fg-white-400 {
+  @apply text-gray-600;  
+
+}
+.fg-white-300 {
+  @apply text-gray-700;  
+
+}
+.fg-white-200 {
+  @apply text-gray-800;  
+
+}
+.fg-white-100 {
+  @apply text-gray-900;  
+
+}
+.fg-white-0 {
+  @apply text-black;  
+
+}
+
+
+.fg-dark-1000 {
+  @apply text-black;
+}
+.fg-dark-900 {
+  @apply text-gray-900;  
+}
+.fg-dark-800 {
+  @apply text-gray-800;  
+
+}
+.fg-dark-700 {
+  @apply text-gray-700;  
+
+}
+.fg-dark-600 {
+  @apply text-gray-600;  
+
+}
+.fg-dark-500 {
+  @apply text-gray-500;  
+
+}
+.fg-dark-400 {
+  @apply text-gray-400;  
+
+}
+.fg-dark-300 {
+  @apply text-gray-300;  
+
+}
+.fg-dark-200 {
+  @apply text-gray-200;  
+
+}
+.fg-dark-100 {
+  @apply text-gray-100;  
+
+}
+.fg-dark-0 {
+  @apply text-black;  
+
+}
+
+
+.bgfg-700-700 {
+  @apply bg-white-700 text-gray-700 dark:bg-gray-700 dark:text-gray-300
+}
+
+.bgfg-700-800 {
+  @apply bg-white-700 text-gray-800 dark:bg-gray-700 dark:text-gray-200
 }
