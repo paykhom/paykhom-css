@@ -4,11 +4,22 @@
   "description": "Ymmy",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss build style.css -o tailwind.css"
+    "build-paykhom": "postcss paykhom-style.css -o paykhom.css",
+    "build-ecom": "postcss ecom-style.css -o ecom.css",
+    "build-localhost": "postcss localhost-style.css -o localhost.css",
+    "build-servo": "postcss servo-style.css -o servo.css",
+    "build-sonet": "postcss sonet-style.css -o sonet.css",
+    "build-wheel": "postcss wheel-style.css -o wheel.css",
+    "build-ymmy": "postcss ymmy-style.css -o ymmy.css"
   },
   "author": "Paykhom Arman",
   "license": "ISC",
   "dependencies": {
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
     "tailwindcss": "^2.2.4"
   }
 }
