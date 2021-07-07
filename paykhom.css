@@ -6,17 +6,11 @@
 
 /* .darkThemeBlack{
     @apply bg-gray-50 dark:bg-gray-700 text-white;
-} */
-
-.dark .darkThemeGray{
-  --tw-bg-opacity: 1;
-  background-color: rgba(17, 24, 39, var(--tw-bg-opacity))
-}
-
+} 
 .darkThemeGray{
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity))
+  @apply dark:bg-gray-900 text-white;
 }
+*/
 
 .signatureBgColor{
   --tw-bg-opacity: 1;
