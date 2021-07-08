@@ -1,3 +1,6 @@
 .localhost-test {
 	@apply font-bold; 
 }
+label{
+	dark:text-black
+}

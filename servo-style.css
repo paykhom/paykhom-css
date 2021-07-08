@@ -1,3 +1,17 @@
+
 .servo-test {
 	@apply font-bold; 
+}
+
+.page-container {
+    @apply max-w-7xl mx-auto;
+}
+
+.card {
+    @apply bg-white dark:bg-gray-800 text-gray-900 dark:text-white rounded;
+    /* @apply rounded; */
+}
+
+.txt-color {
+    @apply text-gray-900 dark:text-white;
 }

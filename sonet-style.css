@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* dark theme */
 /* .darkThemeBlack{
     @apply bg-gray-50 dark:bg-gray-700 text-white;
@@ -13,12 +14,20 @@
 }
 
 /* new paykhom theme */
+=======
+>>>>>>> 466e6bc294bb27583d69a904a7d6a81cb2438056
 .paykhom-body-theme{
     @apply bg-gray-100 text-black dark:bg-gray-700 dark:text-white;
 }
 .paykhom-component-theme{
     @apply bg-white text-black dark:bg-gray-900 dark:text-white;
 }
+<<<<<<< HEAD
+=======
+.paykhom-text-theme{
+    @apply text-black dark:text-white;
+}
+>>>>>>> 466e6bc294bb27583d69a904a7d6a81cb2438056
 .paykhom-bg-color{
     @apply bg-gray-400 text-white;
 }
@@ -28,6 +37,7 @@
 .content-wrap{
     @apply px-5;
 }
+<<<<<<< HEAD
 /* dark mode toggle button */
 .toggle-checkbox {
     @apply: right-0 border-purple-700;
@@ -38,3 +48,8 @@
     @apply: bg-purle-700;
     background-color: #6D28D9;
 }
+=======
+.paykhom-border-color{
+    @apply border-gray-400;
+}
+>>>>>>> 466e6bc294bb27583d69a904a7d6a81cb2438056

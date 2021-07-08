@@ -1,13 +1,199 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
 
-@import "tailwindcss/utilities";
-
-
-.btn-indigo {
-    @apply py-2 px-4 bg-indigo-500 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75;
+#toggle:checked ~ label div.toggle-dot{
+  @apply translate-x-3;
 }
 
-.btnright {
-  @apply font-bold py-2 px-4 rounded /*#{!important}*/;
+.bg-light-1000 {
+  @apply bg-white;
+}
+.bg-light-900 {
+  @apply bg-gray-100;  
+}
+.bg-light-800 {
+  @apply bg-gray-200;  
+
+}
+.bg-light-700 {
+  @apply bg-gray-300;  
+
+}
+.bg-light-600 {
+  @apply bg-gray-400;  
+
+}
+.bg-light-500 {
+  @apply bg-gray-500;  
+
+}
+.bg-light-400 {
+  @apply bg-gray-600;  
+
+}
+.bg-light-300 {
+  @apply bg-gray-700;  
+
+}
+.bg-light-200 {
+  @apply bg-gray-800;  
+
+}
+.bg-light-100 {
+  @apply bg-gray-900;  
+
+}
+.bg-light-0 {
+  @apply bg-black;  
+
+}
+
+/******************/
+
+.fg-light-1000 {
+  @apply text-white;
+}
+.fg-light-900 {
+  @apply text-gray-100;  
+}
+.fg-light-800 {
+  @apply text-gray-200;  
+
+}
+.fg-light-700, .dark\:fg-light-700 {
+  @apply text-gray-300;  
+
+}
+.fg-light-600 {
+  @apply text-gray-400;  
+
+}
+.fg-light-500 {
+  @apply text-gray-500;  
+
+}
+.fg-light-400 {
+  @apply text-gray-600;  
+
+}
+.fg-light-300 {
+  @apply text-gray-700;  
+
+}
+.fg-light-200 {
+  @apply text-gray-800;  
+
+}
+.fg-light-100 {
+  @apply text-gray-900;  
+
+}
+.fg-light-0 {
+  @apply text-black;  
+
+}
+
+
+.bg-dark-1000 {
+  @apply bg-black;
+}
+.bg-dark-900 {
+  @apply bg-gray-900;  
+}
+.bg-dark-800 {
+  @apply bg-gray-800;  
+
+}
+.bg-dark-700 {
+  @apply bg-gray-700;  
+
+}
+.bg-dark-600 {
+  @apply bg-gray-600;  
+
+}
+.bg-dark-500 {
+  @apply bg-gray-500;  
+
+}
+.bg-dark-400 {
+  @apply bg-gray-400;  
+
+}
+.bg-dark-300 {
+  @apply bg-gray-300;  
+
+}
+.bg-dark-200 {
+  @apply bg-gray-200;  
+
+}
+.bg-dark-100 {
+  @apply bg-gray-100;  
+
+}
+.bg-dark-0 {
+  @apply bg-white;  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fg-dark-1000 {
+  @apply text-black;
+}
+.fg-dark-900 {
+  @apply text-gray-900;  
+}
+.fg-dark-800 {
+  @apply text-gray-800;  
+
+}
+.fg-dark-700 {
+  @apply text-gray-700;  
+
+}
+.fg-dark-600 {
+  @apply text-gray-600;  
+
+}
+.fg-dark-500 {
+  @apply text-gray-500;  
+
+}
+.fg-dark-400 {
+  @apply text-gray-400;  
+
+}
+.fg-dark-300 {
+  @apply text-gray-300;  
+
+}
+.fg-dark-200 {
+  @apply text-gray-200;  
+
+}
+.fg-dark-100 {
+  @apply text-gray-100;  
+
+}
+.fg-dark-0 {
+  @apply text-white;  
+
+}
+
+
+.bgfg-700-700 {
+  @apply bg-light-700 fg-dark-700 dark:bg-gray-700 dark:text-gray-300;
+}
+
+.bgfg-700-800 {
+  @apply bg-light-700 fg-dark-800 dark:bg-gray-700 dark:text-gray-200;
 }
