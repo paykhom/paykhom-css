@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* dark theme */
 
 .dark .darkThemeBlack{
@@ -34,6 +35,8 @@
 
 /* new paykhom theme */
 
+=======
+>>>>>>> 98ea81203df5ffd037ea1b51697984652bec1634
 .paykhom-body-theme{
   --tw-bg-opacity: 1;
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
@@ -47,6 +50,12 @@
 .paykhom-body-theme{
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
+<<<<<<< HEAD
+=======
+}
+
+.dark .paykhom-body-theme{
+>>>>>>> 98ea81203df5ffd037ea1b51697984652bec1634
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
@@ -64,6 +73,22 @@
 .paykhom-component-theme{
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
+<<<<<<< HEAD
+=======
+}
+
+.dark .paykhom-component-theme{
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.paykhom-text-theme{
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+
+.dark .paykhom-text-theme{
+>>>>>>> 98ea81203df5ffd037ea1b51697984652bec1634
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
@@ -80,6 +105,7 @@
   color: rgba(156, 163, 175, var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 /* dark mode toggle button */
 
 .toggle-checkbox {
@@ -92,3 +118,14 @@
   @apply: bg-purle-700;
   background-color: #6D28D9;
 }
+=======
+.content-wrap{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.paykhom-border-color{
+  --tw-border-opacity: 1;
+  border-color: rgba(156, 163, 175, var(--tw-border-opacity));
+}
+>>>>>>> 98ea81203df5ffd037ea1b51697984652bec1634
