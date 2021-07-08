@@ -1,3 +1,7 @@
 .localhost-test {
-  font-weight: 700;
+  font-weight:700;
+}
+
+label{
+  dark:text-black
 }
