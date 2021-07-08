@@ -197,3 +197,16 @@
 .bgfg-700-800 {
   @apply bg-light-700 fg-dark-800 dark:bg-gray-700 dark:text-gray-200;
 }
+
+.bgfg-1000-900 {
+  @apply bg-white text-gray-900 dark:bg-black dark:text-gray-100;
+}
+
+.bgfg-300-1000 {
+  @apply bg-gray-300 text-black dark:bg-gray-700 dark:text-white;
+}
+
+.bgfg-1000-1000 {
+  @apply bg-white text-black dark:bg-black dark:text-white;
+}
+
