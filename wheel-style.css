@@ -1,3 +1,100 @@
-.wheel-test {
-	@apply font-bold; 
+
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 42px;
+    font-weight: 700;
 }
+
+#hero .brand-name {
+    color: #3498db;
+}
+
+#hero h2 {
+    font-size: 24px;
+}
+
+#hero .btn-get-started {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+
+#hero .btn-get-started:hover {
+    background: #3498db;
+    color: #fff;
+}
+
+.hero-img {
+    text-align: right;
+}
+
+#hero .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+
+/* @-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+} */
+
+.footer-item {
+    padding: 20px 0 20px 0;
+    color: white;
+}
+
+.footer-item ul li {
+    padding-bottom: 2px
+}
+
+.footer-item ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.oop-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: rgb(4, 94, 94);
+    transition: width .7s;
+}
+
+.oop-item:hover::after {
+    width: 100%;
+}
+
+.truck-category img {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.truck-category img:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
