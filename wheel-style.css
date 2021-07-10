@@ -1,7 +1,6 @@
 
 
 #hero h1 {
-    margin: 0 0 10px 0;
     font-size: 42px;
     font-weight: 700;
 }
@@ -28,10 +27,28 @@
     text-decoration: none;
 }
 
+.btn-get-started {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
 #hero .btn-get-started:hover {
     background: #3498db;
     color: #fff;
 }
+.btn-get-started:hover {
+    background: #3498db;
+    color: #fff;
+}
+
 
 .hero-img {
     text-align: right;
@@ -60,10 +77,6 @@
     }
 } */
 
-.footer-item {
-    padding: 20px 0 20px 0;
-    color: white;
-}
 
 .footer-item ul li {
     padding-bottom: 2px
