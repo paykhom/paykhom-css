@@ -210,3 +210,7 @@
   @apply bg-white text-black dark:bg-black dark:text-white;
 }
 
+.bgfg-800-1000{
+  @apply bg-light-800 fg-dark-1000 dark:bg-gray-800 dark:text-white;
+}
+
