@@ -206,11 +206,22 @@
   @apply bg-gray-300 text-black dark:bg-gray-700 dark:text-white;
 }
 
-.bgfg-1000-1000 {
-  @apply bg-white text-black dark:bg-black dark:text-white;
+/* .bgfg-1000-1000 {
+  @apply bg-white text-gray-700 dark:bg-black dark:text-gray-300;
+} */
+
+.bgfg-1000-700 {
+  @apply bg-white text-gray-700 dark:bg-black dark:text-gray-300;
 }
 
-.bgfg-800-1000{
-  @apply bg-light-800 fg-dark-1000 dark:bg-gray-800 dark:text-white;
+.bgfg-900-1000{
+  @apply bg-light-900 fg-dark-1000 dark:bg-gray-900 dark:text-white;
 }
 
+/* .bgfg-200-800 {
+  @apply bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-300;
+} */
+
+.bgfg-200-700 {
+  @apply bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-300;
+}
