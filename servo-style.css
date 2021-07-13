@@ -15,3 +15,9 @@
 .txt-color {
     @apply text-gray-900 dark:text-white;
 }
+
+.rotate {
+    transform:rotate(180deg);
+    transition: all .30s ease-in;
+}
+  
