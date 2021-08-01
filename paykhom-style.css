@@ -225,3 +225,7 @@
 .bgfg-200-700 {
   @apply bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-300;
 }
+
+.fg-1000-1000{
+  @apply fg-dark-0 dark:text-white;
+}
