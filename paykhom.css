@@ -363,3 +363,69 @@
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
+        .reaction {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        .emoji {
+            width: 250px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            background-color: #fff;
+            border-radius: 50px;
+            cursor: pointer;
+            transform: translateY(100px);
+            transition: all 0.4s;
+            position: relative;
+            visibility: hidden;
+            opacity: 0;
+            z-index: -1;
+        }
+        
+        .emoji img {
+            display: block;
+            width: 100px;
+            transition: all 0.4s;
+        }
+        
+        .emoji img:hover {
+            transform: translateY(-10%) scale(1.2);
+            filter: drop-shadow(0 1px 5px gray);
+        }
+        
+        .btn {
+            text-decoration: none;
+            color: white;
+            border-radius: 50px
+        }
+        
+        .hello p {
+            position: absolute;
+            top: -50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          
+            color: white;
+            padding: 4px 10px;
+            border-radius: 50px;
+            margin-left: 20px;
+            transition: all 0.2s;
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        .hello:hover p {
+            visibility: visible;
+            opacity: 1;
+        }
+        
+        .reaction:hover .emoji {
+            transform: translateY(0);
+            visibility: visible;
+            opacity: 1;
+            z-index: 1;
+        }
