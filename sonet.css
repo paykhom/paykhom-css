@@ -1,4 +1,11 @@
 .wraper{
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media (min-width: 768px){
+  .wraper{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
 }
