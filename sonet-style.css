@@ -1,5 +1,5 @@
 .wraper{
-    @apply mx-5;
+    @apply mx-0 md:mx-5;
 }
 
 
