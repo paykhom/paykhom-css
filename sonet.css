@@ -2,3 +2,38 @@
   margin-left: 1.25rem;
   margin-right: 1.25rem;
 }
+
+#clickMe {
+  display: none;
+}
+
+.modal {
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -200px;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+  transform: scale(0);
+}
+
+.modal label {
+  float: right;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.modal p {
+  margin: 40px 20px 20px 20px;
+  line-height: 25px;
+}
+
+#clickMe:checked ~ .modal {
+  transition: all 0.3s ease-out;
+  opacity: 1;
+  border-radius: 5px;
+  transform: scale(1);
+}
