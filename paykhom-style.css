@@ -229,3 +229,328 @@
 .fg-1000-1000{
   @apply fg-dark-0 dark:text-white;
 }
+
+/* new combinations */
+.bgfg-100-100 {
+	@apply dark:bg-gray-100 dark:text-gray-100 bg-gray-900 text-gray-900;
+}
+      
+.bgfg-100-200 {
+	@apply dark:bg-gray-100 dark:text-gray-200 bg-gray-900 text-gray-800;
+}
+      
+.bgfg-100-300 {
+	@apply dark:bg-gray-100 dark:text-gray-300 bg-gray-900 text-gray-700;
+}
+      
+.bgfg-100-400 {
+	@apply dark:bg-gray-100 dark:text-gray-400 bg-gray-900 text-gray-600;
+}
+      
+.bgfg-100-500 {
+	@apply dark:bg-gray-100 dark:text-gray-500 bg-gray-900 text-gray-500;
+}
+      
+.bgfg-100-600 {
+	@apply dark:bg-gray-100 dark:text-gray-600 bg-gray-900 text-gray-400;
+}
+      
+.bgfg-100-700 {
+	@apply dark:bg-gray-100 dark:text-gray-700 bg-gray-900 text-gray-300;
+}
+      
+.bgfg-100-800 {
+	@apply dark:bg-gray-100 dark:text-gray-800 bg-gray-900 text-gray-200;
+}
+      
+.bgfg-100-900 {
+	@apply dark:bg-gray-100 dark:text-gray-900 bg-gray-900 text-gray-100;
+}
+      
+.bgfg-200-100 {
+	@apply dark:bg-gray-200 dark:text-gray-100 bg-gray-800 text-gray-900;
+}
+      
+.bgfg-200-200 {
+	@apply dark:bg-gray-200 dark:text-gray-200 bg-gray-800 text-gray-800;
+}
+      
+.bgfg-200-300 {
+	@apply dark:bg-gray-200 dark:text-gray-300 bg-gray-800 text-gray-700;
+}
+      
+.bgfg-200-400 {
+	@apply dark:bg-gray-200 dark:text-gray-400 bg-gray-800 text-gray-600;
+}
+      
+.bgfg-200-500 {
+	@apply dark:bg-gray-200 dark:text-gray-500 bg-gray-800 text-gray-500;
+}
+      
+.bgfg-200-600 {
+	@apply dark:bg-gray-200 dark:text-gray-600 bg-gray-800 text-gray-400;
+}
+      
+.bgfg-200-700 {
+	@apply dark:bg-gray-200 dark:text-gray-700 bg-gray-800 text-gray-300;
+}
+      
+.bgfg-200-800 {
+	@apply dark:bg-gray-200 dark:text-gray-800 bg-gray-800 text-gray-200;
+}
+      
+.bgfg-200-900 {
+	@apply dark:bg-gray-200 dark:text-gray-900 bg-gray-800 text-gray-100;
+}
+      
+.bgfg-300-100 {
+	@apply dark:bg-gray-300 dark:text-gray-100 bg-gray-700 text-gray-900;
+}
+      
+.bgfg-300-200 {
+	@apply dark:bg-gray-300 dark:text-gray-200 bg-gray-700 text-gray-800;
+}
+      
+.bgfg-300-300 {
+	@apply dark:bg-gray-300 dark:text-gray-300 bg-gray-700 text-gray-700;
+}
+      
+.bgfg-300-400 {
+	@apply dark:bg-gray-300 dark:text-gray-400 bg-gray-700 text-gray-600;
+}
+      
+.bgfg-300-500 {
+	@apply dark:bg-gray-300 dark:text-gray-500 bg-gray-700 text-gray-500;
+}
+      
+.bgfg-300-600 {
+	@apply dark:bg-gray-300 dark:text-gray-600 bg-gray-700 text-gray-400;
+}
+      
+.bgfg-300-700 {
+	@apply dark:bg-gray-300 dark:text-gray-700 bg-gray-700 text-gray-300;
+}
+      
+.bgfg-300-800 {
+	@apply dark:bg-gray-300 dark:text-gray-800 bg-gray-700 text-gray-200;
+}
+      
+.bgfg-300-900 {
+	@apply dark:bg-gray-300 dark:text-gray-900 bg-gray-700 text-gray-100;
+}
+      
+.bgfg-400-100 {
+	@apply dark:bg-gray-400 dark:text-gray-100 bg-gray-600 text-gray-900;
+}
+      
+.bgfg-400-200 {
+	@apply dark:bg-gray-400 dark:text-gray-200 bg-gray-600 text-gray-800;
+}
+      
+.bgfg-400-300 {
+	@apply dark:bg-gray-400 dark:text-gray-300 bg-gray-600 text-gray-700;
+}
+      
+.bgfg-400-400 {
+	@apply dark:bg-gray-400 dark:text-gray-400 bg-gray-600 text-gray-600;
+}
+      
+.bgfg-400-500 {
+	@apply dark:bg-gray-400 dark:text-gray-500 bg-gray-600 text-gray-500;
+}
+      
+.bgfg-400-600 {
+	@apply dark:bg-gray-400 dark:text-gray-600 bg-gray-600 text-gray-400;
+}
+      
+.bgfg-400-700 {
+	@apply dark:bg-gray-400 dark:text-gray-700 bg-gray-600 text-gray-300;
+}
+      
+.bgfg-400-800 {
+	@apply dark:bg-gray-400 dark:text-gray-800 bg-gray-600 text-gray-200;
+}
+      
+.bgfg-400-900 {
+	@apply dark:bg-gray-400 dark:text-gray-900 bg-gray-600 text-gray-100;
+}
+      
+.bgfg-500-100 {
+	@apply dark:bg-gray-500 dark:text-gray-100 bg-gray-500 text-gray-900;
+}
+      
+.bgfg-500-200 {
+	@apply dark:bg-gray-500 dark:text-gray-200 bg-gray-500 text-gray-800;
+}
+      
+.bgfg-500-300 {
+	@apply dark:bg-gray-500 dark:text-gray-300 bg-gray-500 text-gray-700;
+}
+      
+.bgfg-500-400 {
+	@apply dark:bg-gray-500 dark:text-gray-400 bg-gray-500 text-gray-600;
+}
+      
+.bgfg-500-500 {
+	@apply dark:bg-gray-500 dark:text-gray-500 bg-gray-500 text-gray-500;
+}
+      
+.bgfg-500-600 {
+	@apply dark:bg-gray-500 dark:text-gray-600 bg-gray-500 text-gray-400;
+}
+      
+.bgfg-500-700 {
+	@apply dark:bg-gray-500 dark:text-gray-700 bg-gray-500 text-gray-300;
+}
+      
+.bgfg-500-800 {
+	@apply dark:bg-gray-500 dark:text-gray-800 bg-gray-500 text-gray-200;
+}
+      
+.bgfg-500-900 {
+	@apply dark:bg-gray-500 dark:text-gray-900 bg-gray-500 text-gray-100;
+}
+      
+.bgfg-600-100 {
+	@apply dark:bg-gray-600 dark:text-gray-100 bg-gray-400 text-gray-900;
+}
+      
+.bgfg-600-200 {
+	@apply dark:bg-gray-600 dark:text-gray-200 bg-gray-400 text-gray-800;
+}
+      
+.bgfg-600-300 {
+	@apply dark:bg-gray-600 dark:text-gray-300 bg-gray-400 text-gray-700;
+}
+      
+.bgfg-600-400 {
+	@apply dark:bg-gray-600 dark:text-gray-400 bg-gray-400 text-gray-600;
+}
+      
+.bgfg-600-500 {
+	@apply dark:bg-gray-600 dark:text-gray-500 bg-gray-400 text-gray-500;
+}
+      
+.bgfg-600-600 {
+	@apply dark:bg-gray-600 dark:text-gray-600 bg-gray-400 text-gray-400;
+}
+      
+.bgfg-600-700 {
+	@apply dark:bg-gray-600 dark:text-gray-700 bg-gray-400 text-gray-300;
+}
+      
+.bgfg-600-800 {
+	@apply dark:bg-gray-600 dark:text-gray-800 bg-gray-400 text-gray-200;
+}
+      
+.bgfg-600-900 {
+	@apply dark:bg-gray-600 dark:text-gray-900 bg-gray-400 text-gray-100;
+}
+      
+.bgfg-700-100 {
+	@apply dark:bg-gray-700 dark:text-gray-100 bg-gray-300 text-gray-900;
+}
+      
+.bgfg-700-200 {
+	@apply dark:bg-gray-700 dark:text-gray-200 bg-gray-300 text-gray-800;
+}
+      
+.bgfg-700-300 {
+	@apply dark:bg-gray-700 dark:text-gray-300 bg-gray-300 text-gray-700;
+}
+      
+.bgfg-700-400 {
+	@apply dark:bg-gray-700 dark:text-gray-400 bg-gray-300 text-gray-600;
+}
+      
+.bgfg-700-500 {
+	@apply dark:bg-gray-700 dark:text-gray-500 bg-gray-300 text-gray-500;
+}
+      
+.bgfg-700-600 {
+	@apply dark:bg-gray-700 dark:text-gray-600 bg-gray-300 text-gray-400;
+}
+      
+.bgfg-700-700 {
+	@apply dark:bg-gray-700 dark:text-gray-700 bg-gray-300 text-gray-300;
+}
+      
+.bgfg-700-800 {
+	@apply dark:bg-gray-700 dark:text-gray-800 bg-gray-300 text-gray-200;
+}
+      
+.bgfg-700-900 {
+	@apply dark:bg-gray-700 dark:text-gray-900 bg-gray-300 text-gray-100;
+}
+      
+.bgfg-800-100 {
+	@apply dark:bg-gray-800 dark:text-gray-100 bg-gray-200 text-gray-900;
+}
+      
+.bgfg-800-200 {
+	@apply dark:bg-gray-800 dark:text-gray-200 bg-gray-200 text-gray-800;
+}
+      
+.bgfg-800-300 {
+	@apply dark:bg-gray-800 dark:text-gray-300 bg-gray-200 text-gray-700;
+}
+      
+.bgfg-800-400 {
+	@apply dark:bg-gray-800 dark:text-gray-400 bg-gray-200 text-gray-600;
+}
+      
+.bgfg-800-500 {
+	@apply dark:bg-gray-800 dark:text-gray-500 bg-gray-200 text-gray-500;
+}
+      
+.bgfg-800-600 {
+	@apply dark:bg-gray-800 dark:text-gray-600 bg-gray-200 text-gray-400;
+}
+      
+.bgfg-800-700 {
+	@apply dark:bg-gray-800 dark:text-gray-700 bg-gray-200 text-gray-300;
+}
+      
+.bgfg-800-800 {
+	@apply dark:bg-gray-800 dark:text-gray-800 bg-gray-200 text-gray-200;
+}
+      
+.bgfg-800-900 {
+	@apply dark:bg-gray-800 dark:text-gray-900 bg-gray-200 text-gray-100;
+}
+      
+.bgfg-900-100 {
+	@apply dark:bg-gray-900 dark:text-gray-100 bg-gray-100 text-gray-900;
+}
+      
+.bgfg-900-200 {
+	@apply dark:bg-gray-900 dark:text-gray-200 bg-gray-100 text-gray-800;
+}
+      
+.bgfg-900-300 {
+	@apply dark:bg-gray-900 dark:text-gray-300 bg-gray-100 text-gray-700;
+}
+      
+.bgfg-900-400 {
+	@apply dark:bg-gray-900 dark:text-gray-400 bg-gray-100 text-gray-600;
+}
+      
+.bgfg-900-500 {
+	@apply dark:bg-gray-900 dark:text-gray-500 bg-gray-100 text-gray-500;
+}
+      
+.bgfg-900-600 {
+	@apply dark:bg-gray-900 dark:text-gray-600 bg-gray-100 text-gray-400;
+}
+      
+.bgfg-900-700 {
+	@apply dark:bg-gray-900 dark:text-gray-700 bg-gray-100 text-gray-300;
+}
+      
+.bgfg-900-800 {
+	@apply dark:bg-gray-900 dark:text-gray-800 bg-gray-100 text-gray-200;
+}
+      
+.bgfg-900-900 {
+	@apply dark:bg-gray-900 dark:text-gray-900 bg-gray-100 text-gray-100;
+}
