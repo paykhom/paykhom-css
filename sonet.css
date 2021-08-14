@@ -10,7 +10,7 @@
   }
 }
 
-#clickMe {
+input {
   display: none;
 }
 
@@ -38,9 +38,60 @@
   line-height: 25px;
 }
 
-#clickMe:checked ~ .modal {
+input:checked ~ .modal {
   transition: all 0.3s ease-out;
   opacity: 1;
   border-radius: 5px;
   transform: scale(1);
+}
+
+/* invisible styles */
+
+.scrollbarStyles::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+.scrollbarStyles::-webkit-scrollbar-track {
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+
+.dark .scrollbarStyles::-webkit-scrollbar-track{
+  --tw-bg-opacity: 1;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+}
+
+.scrollbarStyles::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+
+.dark .scrollbarStyles::-webkit-scrollbar-thumb{
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+}
+
+.scrollbarStyles::-webkit-scrollbar-thumb{
+  --tw-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* filter styles */
+
+.inkwell {
+  position: relative;
+  filter: contrast(110%) brightness(110%) sepia(30%) grayscale(100%);
+}
+
+.inkwell::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0);
 }

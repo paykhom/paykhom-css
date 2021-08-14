@@ -33,3 +33,51 @@ input {
     border-radius: 5px;
     transform: scale(1);
   }
+
+/* invisible styles */
+.scrollbarStyles::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+.scrollbarStyles::-webkit-scrollbar-track {
+  @apply dark:bg-gray-800 bg-gray-200;
+}
+.scrollbarStyles::-webkit-scrollbar-thumb {
+  @apply dark:bg-gray-900 bg-gray-100 shadow-inner;
+}
+
+/* filter styles */
+.nineteen77 {
+  position: relative;
+  -webkit-filter: contrast(110%) brightness(110%) saturate(130%);
+  filter: contrast(110%) brightness(110%) saturate(130%);
+}
+.nineteen77::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  background: rgba(243, 106, 188, 0.3);
+}
+
+.inkwell {
+  position: relative;
+  -webkit-filter: contrast(110%) brightness(110%) sepia(30%) grayscale(100%);
+  filter: contrast(110%) brightness(110%) sepia(30%) grayscale(100%);
+}
+.inkwell::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0);
+}
