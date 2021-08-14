@@ -10,7 +10,7 @@
   }
 }
 
-#clickMe {
+input {
   display: none;
 }
 
@@ -38,9 +38,40 @@
   line-height: 25px;
 }
 
-#clickMe:checked ~ .modal {
+input:checked ~ .modal {
   transition: all 0.3s ease-out;
   opacity: 1;
   border-radius: 5px;
   transform: scale(1);
 }
+
+/* Follower */
+
+.parent_follower{
+  padding: 1rem
+}
+
+.follower_info{
+  width: 100%;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity))
+}
+
+.dark .follower_info{
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+}
+
+.follower_info{
+  padding-bottom: 0.75rem;
+}
+
+.follower_inner {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0.375rem;
+  padding: 0.75rem
+}
+
+/* Follower End */
