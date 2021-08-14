@@ -43,8 +43,12 @@ input {
   @apply dark:bg-gray-800 bg-gray-200;
 }
 .scrollbarStyles::-webkit-scrollbar-thumb {
-  @apply dark:bg-gray-900 bg-gray-100 shadow-inner;
+  background: #515151;
+  background: -moz-linear-gradient(left, #515151 0%, #989898 50%, #515151 100%);
+  background: -webkit-linear-gradient(left, #515151 0%, #989898 50%, #515151 100%);
+  background: linear-gradient(to right, #515151 0%, #989898 50%, #515151 100%);
 }
+
 
 /* filter styles */
 .nineteen77 {
