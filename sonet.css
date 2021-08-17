@@ -10,6 +10,7 @@
   }
 }
 
+<<<<<<< HEAD
 .active-filter{
   border-width: 2px;
   --tw-border-opacity: 1;
@@ -17,6 +18,8 @@
   padding: 0.25rem;
 }
 
+=======
+>>>>>>> 6c0081ef23ff8bb8ad21b08b4393dd7f46cc789d
 input {
   display: none;
 }
@@ -52,6 +55,7 @@ input:checked ~ .modal {
   transform: scale(1);
 }
 
+<<<<<<< HEAD
 /* invisible styles */
 
 .scrollbarStyles::-webkit-scrollbar {
@@ -409,3 +413,35 @@ input:checked ~ .modal {
   mix-blend-mode: color-burn;
   background: radial-gradient(50% 50%, circle closest-corner, rgba(224, 231, 230, 1) 40, rgba(43, 42, 161, 0.6));
 }
+=======
+/* Follower */
+
+.parent_follower{
+  padding: 1rem
+}
+
+.follower_info{
+  width: 100%;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity))
+}
+
+.dark .follower_info{
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+}
+
+.follower_info{
+  padding-bottom: 0.75rem;
+}
+
+.follower_inner {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0.375rem;
+  padding: 0.75rem
+}
+
+/* Follower End */
+>>>>>>> 6c0081ef23ff8bb8ad21b08b4393dd7f46cc789d

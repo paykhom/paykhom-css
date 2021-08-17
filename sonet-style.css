@@ -375,3 +375,18 @@ input {
   background: -webkit-radial-gradient(50% 50%, circle closest-corner, rgba(224, 231, 230, 1) 40, rgba(43, 42, 161, 0.6));
   background: radial-gradient(50% 50%, circle closest-corner, rgba(224, 231, 230, 1) 40, rgba(43, 42, 161, 0.6));
 }
+
+  /* Follower */
+.parent_follower{
+  @apply  p-4
+}
+
+.follower_info{
+  @apply w-full border-b pb-3 border-black dark:border-white
+}
+
+.follower_inner {
+  @apply my-3  rounded-md p-3
+}
+
+/* Follower End */
