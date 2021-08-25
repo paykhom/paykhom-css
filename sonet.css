@@ -440,3 +440,8 @@ input:checked ~ .modal {
 }
 
 /* Follower End */
+
+.profile .cropper-view-box,
+.cropper-face {
+  border-radius: 50% !important;
+}
